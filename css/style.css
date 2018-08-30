@@ -1,0 +1,501 @@
+		html,body{
+			height: 100%;
+		}
+		*{margin: 0;
+		padding: 0;
+		font-family: 'Roboto', sans-serif;;}
+		/*fixer*/
+		.fixer{
+			display: flex;
+		}
+		h1 {
+			text-align: center;
+			font-size: 4vw;
+			font-family: sans-serif;
+			color: red;
+		}
+
+		.top-bar {
+
+			top: 0vh;
+			background-color: black;
+			display: flex;
+			width: 100%;
+		line-height: 4vh;
+			position: fixed;
+			z-index: 1000;
+
+			
+		}
+
+		.logo {
+			color: #fff;
+			flex: 1;
+			font-size: 2vw;
+			padding: 1vw;
+			
+		}
+		.menu {
+			
+			flex:3;
+		}
+		.menu ul {
+			
+			display: flex;
+			list-style: none;
+			margin-top: 1vw;
+			flex-flow: row wrap;
+		}
+		.menu ul li {
+			flex: 1;
+			text-align: center;
+		}
+		.menu ul li a {
+			color: #fff;
+			font-size: 1.5vw;
+			text-decoration: none;
+		}
+		.menu  ul li a:hover {
+			color: red;
+		}
+		.alll {
+			background-color: grey;
+		}
+		/*hero */
+		/* The hero image */
+		.hero-image {
+			margin-top: 7.5vh;
+			  width:100%;
+		    height:100%;
+
+		    /* Use "linear-gradient" to add a darken background effect to the image . This will make the text easier to read */
+		    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/carry.jpg");
+		    /* Set a specific height */
+		    display: flex;
+		    justify-content: center;
+		    /* Position and center the image to scale nicely on all screens */
+		    background-repeat: no-repeat;
+		    background-size: 100% 100%;
+		  
+		    position: relative;
+		}
+
+		/* Place text in the middle of the image */
+		.hero-text {
+			display: flex;
+			justify-content: center;
+		   flex-direction:column; 
+		   align-items:center; 
+		   justify-content:space-around;
+		    text-align: center;
+		    position: relative;
+		    align-self:center;
+		        color: white;
+		    font-size: 1.5vw;
+
+		}
+		.chutiya{
+			display:flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+			margin-bottom: 10%;
+			justify-content: center;
+			flex:0.8;
+		}
+		.hero-text h1 {
+		display: flex;
+		text-align: center;
+		flex:1;
+		}
+		.hero-text p {
+		display: flex;
+		flex:0.5;
+		}
+		.hero-text a{
+			display: flex;
+			flex:0.3;
+			color: white;
+			text-align: center;
+			background: black;
+			border-color: black;
+			border-radius: 16px;
+			padding:6px;
+			width: 10%;
+			font-size: 2vw;
+			text-decoration: none;
+			box-shadow: 0.5vw 1vh red;
+		}
+
+
+
+
+		/*column*/
+		.main-content {
+
+			
+			display: flex;
+			flex-flow: row wrap;
+			padding: 5% 0;
+			justify-content: flex-start;
+			box-sizing: border-box;
+		} 
+		.main1{
+			
+			flex: 1;
+			padding: 3%;
+			text-align: center;
+			align-items: center;
+			box-sizing: border-box;
+		}
+		.main1 p {
+			text-align: left;
+
+		}
+		/*.main1 p {
+			font-family: 'Dancing Script', cursive;
+			font-size: 2.5vw;
+		}*/
+		.alll p{
+			
+			font-size: 2.5vw;
+			
+
+		}
+		.alll a{
+			text-decoration:  none;
+			color: red;
+		}
+
+		.main1 h2 {
+			margin-bottom: 2.5vw;
+			font-size: 2.5vw;
+		}
+		/*.main1 img {
+			width: 100%;
+
+		}*/
+		/*register*/
+		.contact-items {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		}
+		#contact{
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/klore.jpg");
+			padding: 5vw 0;
+			background-size: 100% 100%;
+			justify-content: center;
+			align-items: center;
+			
+		}
+		.contact-items h2 {
+			padding-top: 4vh;
+			color: #fff;
+			font-size: 5vw;
+			margin-bottom: 5vh;
+		}
+		.contact-items input[type="text"]{
+			border-radius: 2vw;
+			margin-bottom: 1vh;
+			padding: 1vw;
+			width: 45%;
+		}
+		.contact-items textarea{
+			border-radius: 1vw;
+			height: 9vh;
+			width:55%;
+			margin-bottom: 2vw;
+
+		}
+		.contact-items h2{
+			color: red;
+		}
+		.contact-items a{
+			padding: 2vh;
+			height:50%;
+			text-decoration: none;
+			font-size: 3vw;
+			color: #fff;
+			border-radius: 30px;
+			background-color: #000;
+			box-shadow: 0.5vw 1vh red;
+		}
+		#padcontents{
+			padding-top: 1vh;
+			color: red;
+			text-align: center;
+			font-size: 7vh;
+		}
+		.resizeimage {
+			width: 24vw;
+		}
+		/*footer*/
+		/*.low-bar {
+		bottom: 0;
+		background-color: #000;
+		width: 100%;
+
+		} 
+		.foot {
+			color: #fff;
+			flex: 1;
+			font-size: 3vw;
+			padding: 1.6vw;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		.links {
+			display: flex;
+			list-style: none;
+			flex-flow: row wrap;
+		}
+		.links li {
+			flex: 1;
+			text-align: center;
+		}
+		/*.links li a img {
+			
+			width: 3.5vw;
+			height: 3.5vw;
+			margin-bottom: 3.6vw;
+		}
+		/*@media screen and (min-width:600px){
+			.top-bar{
+				flex-direction: column;
+				text-align: center;
+				height: auto;
+				position: fixed;
+			}
+
+			
+			.low-bar {
+				flex-direction: column;
+				text-align: center;
+			}
+			.menu ul li{
+				padding: 0.3vw;
+			}
+			.hero-text-items{
+				font-size: 3vw;
+			}
+			.logo{
+				padding: 1.6vw 0 0;
+			}
+			/*.menu ul{
+				flex-direction: column;
+				margin-top: 0;
+			}
+
+			.main-content{
+				flex-direction: column;
+			}
+			.contact-items textarea{
+			border-radius: 1vw;
+			height: 10vh;
+			padding: 1.2vw;
+			width:55%;
+			margin-bottom: 5vw;
+
+		}
+			#contact{
+			background: url(../images/klore.jpg) no-repeat;
+			padding: 5vw 0;
+			background-size: 100% 100%;
+			height: 60vh;
+		}
+		}*/
+		.left {
+			text-align: left;
+		}
+		.footer{
+			display: flex;
+			background-color: black;
+			width: 100%;
+		}
+		.footer-box1{
+			flex: 3;
+			color: #808080;
+			padding: 10px;
+			box-sizing: border-box;
+			align-items: center;
+			text-align: center;
+			border-right: 2px solid rgba(105,105,105,0.2);
+		}
+		.footer-box1 a{
+			color: #a2a2a2;
+			text-decoration: none;
+			text-align: center;
+			}
+
+		.footer-box2{
+			flex: 3;
+			color: #808080;
+			padding: 10px;
+			box-sizing: border-box;
+			text-align: center;
+			border-right: 2px solid rgba(105,105,105,0.2);
+		}
+		.footer-box2 h4{
+			color: #efefef;
+			text-align: left;
+		}
+
+		.footer-box2 p{
+			color: #efefef;
+			text-align: left;
+		}
+
+		.footer-box3{
+			flex: 3;
+			color: #808080;
+			padding: 10px;
+			box-sizing: border-box;
+			text-align: center;
+		}
+		.footer-box3 h3 {
+			padding-bottom: 1vw;
+		}
+		.footer-box3 a {
+			text-decoration: none;
+		}
+		/*@media screen and (max-width:700px)  {
+			.footer{
+				display: flex;
+				flex-flow: column wrap;
+			}
+			.footer-box1{
+				color: #808080;
+				padding: 10px;
+				box-sizing: border-box;
+				text-align: center;
+				border-bottom: 2px solid rgba(105,105,105,0.2);
+			}
+			.footer-box2{
+				color: #808080;
+				padding: 10px;
+		box-sizing: border-box;
+				text-align: center;
+				border-bottom: 2px solid rgba(105,105,105,0.2);
+			}
+			.footer-box2 h4{
+				color: #efefef;
+				text-align: center;
+			}
+
+			.footer-box2 p{
+				color: #efefef;
+				text-align: center;
+			}		
+		}*/
+		#mid {
+			text-align: center;
+		}
+
+
+			
+
+		@media screen and (max-width:980px){
+			.logo {
+				font-size: 4vw;
+			}
+			.menu ul li a{
+				font-size: 3vw;
+			}
+			.hero-text p{
+				font-size: 3vw;
+			}
+			.hero-text a{
+				font-size: 3vw;
+			}
+			.resizeimage {
+				width: 80vw;
+				height: 60vw;
+			}
+			footer h2,h3 {
+				font-size: 4vw;
+			}
+			.footer-box1 a{
+				font-size: 3vw;
+			}
+			.footer-box3 a{
+				height: 3vw;
+				width: 3vw;
+			}
+			.contact-items input[type="text"]{
+				height: 4vh;
+				width: 40%;
+
+			}
+			.top-bar{
+				flex-direction: column;
+				text-align: center;
+				height: auto;
+				position: fixed;
+			}
+
+			
+			footer {
+				flex-direction: column;
+				text-align: center;
+				font-size: 2vw;
+			}
+			.menu ul li{
+				padding: 0.3vw;
+			}
+			.hero-text-items{
+				font-size: 3vw;
+			}
+			.logo{
+				padding: 1.6vw 0 0;
+			}
+			/*.menu ul{
+				flex-direction: column;
+				margin-top: 0;
+			}*/
+
+			.main-content{
+				flex-direction: column;
+			}
+			
+
+		}
+
+		@media screen and (max-width: 716px){
+			
+
+			.logo {
+				font-size: 5vw;
+			}
+			.menu ul li a{
+				font-size: 4vw;
+			}
+			.hero-text p{
+				font-size: 4vw;
+			}
+			.hero-text a{
+				font-size: 3vw;
+			}
+			.resizeimage {
+				width: 80vw;
+				height: 60vw;
+			}
+			footer h2,h3 {
+				font-size: 4vw;
+			}
+			.footer-box1 a{
+				font-size: 3vw;
+			}
+			.footer-box3 a{
+				height: 3vw;
+				width: 3vw;
+			}
+			.contact-items input[type="text"]{
+				height: 4vh;
+				width: 40%;
+
+			}
+
+		}
+
+			
